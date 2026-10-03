@@ -1,0 +1,13 @@
+numpy>=2.0,<3
+pandas>=2.2,<4
+pandas-market-calendars==5.4.0
+python-dateutil>=2.9,<3
+python-dotenv>=1.0,<2
+requests>=2.32,<3
+yfinance==1.7.0
+scipy>=1.14,<2
+statsmodels>=0.14,<1
+nbformat>=5.10,<6
+nbclient>=0.10,<1
+ipykernel>=7,<8
+matplotlib>=3.10,<4

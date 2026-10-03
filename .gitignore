@@ -1,0 +1,30 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Downloaded provider data, model caches, and generated working datasets
+# These files are intentionally not redistributed. Rebuild them with the
+# collection and analysis scripts in this repository.
+data/
+
+# Local QA and planning artifacts
+tmp/
+plan/
+
+# Logs and operating-system files
+*.log
+.DS_Store
+Thumbs.db
+desktop.ini
+
